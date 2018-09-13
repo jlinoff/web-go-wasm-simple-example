@@ -1,0 +1,5 @@
+*~
+.init
+bin/
+src/github.com/
+www/wasm/
