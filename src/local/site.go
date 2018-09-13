@@ -1,4 +1,8 @@
-// https://golang.org/pkg/crypto/cipher/#Block
+// Project: https://github.com/jlinoff/web-go-wasm-simple-example
+// Useful references:
+// 1. https://github.com/golang/go/blob/master/src/syscall/js/js.go
+// 2. https://blog.owulveryck.info/2018/06/08/some-notes-about-the-upcoming-webassembly-support-in-go.html
+// 3. https://medium.zenika.com/go-1-11-webassembly-for-the-gophers-ae4bb8b1ee03
 package main
 
 import (
@@ -8,9 +12,6 @@ import (
 )
 
 func main() {
-	// https://github.com/golang/go/blob/master/src/syscall/js/js.go
-	// https://blog.owulveryck.info/2018/06/08/some-notes-about-the-upcoming-webassembly-support-in-go.html
-	// https://medium.zenika.com/go-1-11-webassembly-for-the-gophers-ae4bb8b1ee03
 	clog("Hello world!")
 	alert("wow, wasm loaded!")
 
@@ -24,7 +25,6 @@ func main() {
 	item1.Call("setAttribute", "style", "font-size: 24pt; color: green")
 	clog("All done.")
 }
-
 
 // alert pops up an alert dialogue with a message.
 func alert(format string, args ...interface{}) {
