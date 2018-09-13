@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Simple wasm Test</title>
+  <link rel="stylesheet" href="css/site.css">
+  <script src="js/wasm_exec.js"></script>
+  <script src="js/site.js"></script>
+</head>
+<body>
+  <h3>Simple wasm Test</h3>
+  <p>
+    Click the run button to load and execute the site.wasm file.
+    Make sure that the console output is displayed to see the console log messages.
+  </p>
+  <button onClick="run();"
+          id="runButton"
+          disabled>Run
+  </button>
+  <div id="wasm-area"></div>
+</body>
+</html>
