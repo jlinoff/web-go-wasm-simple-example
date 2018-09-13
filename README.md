@@ -5,9 +5,9 @@ The goal of this example is to provide a simple, high level overview
 of how to use go to create `wasm` modules and integrate them into a
 browser.
 
-It uses go to compile a source file named `site.go` (in
-`src/local/site.go`) and install it in `www/wasm/site.wasm`. It then
-runs a local server which serves the `www` site on `localhost:5555`.
+It uses `go` to compile a source file named `site.go` (in
+`src/local/site.go`) as a `wasm` file and install it in `www/wasm/site.wasm`.
+It then runs a local server which serves the `www` site on `localhost:5555`.
 
 The site displays a `Run` button which, when clicked, loads and runs
 the `site.wasm` code. That code demonstrates the following actions from
@@ -18,6 +18,8 @@ the wasm code:
 3. How to get an element by id.
 4. How to set an element innerHTML property.
 5. How to set an element style attributes.
+
+The site functionality was tested on recent versions of Chrome, Firefox and Safari.
 
 ### Requirements
 1. go 1.11 or later
