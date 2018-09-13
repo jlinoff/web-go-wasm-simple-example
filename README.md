@@ -37,6 +37,7 @@ To access the example page in your browser navigate to `localhost:5555`.
 
 ```
 .
+├── LICENSE
 ├── Makefile
 ├── README.md
 ├── src
@@ -52,7 +53,7 @@ To access the example page in your browser navigate to `localhost:5555`.
     │   └── wasm_exec.js
     └── wasm
 
-6 directories, 8 files
+6 directories, 9 files
 ```
 
 1. `server.go` is the source file for the simple web server.
